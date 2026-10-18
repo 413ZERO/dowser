@@ -1,6 +1,6 @@
 # Dowser firmware
 
-Firmware for **Dowser**, a thumb-sized WiFi finder. A Seeed XIAO ESP32-C6 listens to the 2.4 GHz networks and devices around it and streams them over USB to a web page, which draws them as a cluster of balls you can follow around a room. The page runs in desktop Chrome or Edge and lives in the Lab section of [zehan.work](https://zehan.work) (Lab → Dowser → Demo Link).
+Firmware for **Dowser**, a thumb-sized WiFi finder. A Seeed XIAO ESP32-C6 listens to the 2.4 GHz networks and devices around it and streams them over USB to a web page, which draws them as a cluster of balls you can follow around a room. Try the page at **[zehan.work/lab/dowser](https://zehan.work/lab/dowser/)** in desktop Chrome or Edge.
 
 This repo holds the firmware only. Use it as a reference to build your own receiver for the same page.
 
@@ -54,7 +54,7 @@ arduino-cli monitor -p /dev/cu.usbmodemXXXX   # optional: watch the lines
 
 ## Use
 
-1. Open the Dowser page in desktop Chrome or Edge. Without a board it runs on simulated data.
+1. Open [zehan.work/lab/dowser](https://zehan.work/lab/dowser/) in desktop Chrome or Edge. Without a board it runs on simulated data.
 2. Plug in the board, press **CONNECT** and pick it in the port list.
 3. Click a ball to lock onto that network, then walk around and watch it grow or shrink. Click empty space or press Esc to go back to scanning.
 
